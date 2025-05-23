@@ -7,7 +7,7 @@ import dayjs from 'dayjs';
 interface QuestionProps {
   title: string;
   content: string;
-  authorId: string;
+  authorId: UniqueEntityID;
   slug: Slug;
   bestAnswerId?: string;
   createdAt: Date;
